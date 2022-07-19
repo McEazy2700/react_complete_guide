@@ -1,5 +1,6 @@
 import './App.css';
 import Expenses from './components/Expenses/Expenses';
+import NewExpense from './components/NewExpense/NewExpense';
 
 // React is a JavaScript library for building user interfaces
 // React is all about Components.
@@ -44,6 +45,7 @@ function App() {
   ]
   return (
     <div className="App">
+      <NewExpense />
       <Expenses expenses={expenses}/>
     </div>
   );
